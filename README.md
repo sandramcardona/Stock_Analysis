@@ -54,22 +54,13 @@ Steve explained that he would like to use the code in other years for the same s
 
 ![alt text](https://github.com/sandramcardona/Stock_Analysis/blob/master/Resources/VBA_Challenge_Refactored_2018_runningtime.png)
 
-The different in times between the original and the refactored times shows that the optimization of the code really works and it works 6 to 7 times faster than the original code. 
+The different in times between the original and the refactored times shows that the optimization of the code really works and it works 3 to 4 times faster than the original code. 
 
 
 ### Summary
-There is a detailed statement on the advantages and disadvantages of refactoring code in general (3 pt).
-There is a detailed statement on the advantages and disadvantages of the original and refactored VBA script (3 pt).
+
+After working on the original and refactored code, I was able to find the advantages and disadvantages of refactoring. The advantages are that the code can be made to run faster and more efficient than the original code and this will help when working on larger data sets. The disadvantages will be that if one is not familiar with the syntax and language it will take longer to finish witht the refactored code and there is the possibility that after running it, the refactored code might end up not working and with bugs that will also take time to fix and if there is no time then this will cause the project to fail or introduce bugs that were not in the original code. When the deadline is up close and one is not familiar with the refactored methods then refactoring is not recommended. 
+
+In the case of the VBA script for all stocks analysis that was created for this project, the advantage of refactoring the code was to get it to run 3 to 4 times faster than the original code. This would allow the client, Steve, to use the code in larger sets and get the results faster.  The disadvantages of refacturing the VBa code was that we already had a working code and learning how to best refacturing it took time to understand. Then making sure the edits in the code worked and cleaning up the bugs took also time. This extra time can cause delays in returning the code to the client. 
 
 
-Summary: In a summary statement, address the following questions.
-What are the advantages or disadvantages of refactoring code?
-How do these pros and cons apply to refactoring the original VBA script?
-To do this, nn input window was created and the code was change so it wouldn't look into 2018 but into the value for the year in the input window. as well as a run button and clear sheet button to and the results will be formatted to be easily analyzed. 
-
-Now that we've run the analysis, let's make it easier for Steve to read by adding some formatting to our table. This is the same type of formatting we did in the last module—changing font styles, adding borders, setting number formats, and so on—but we can automate formatting with VBA.
-Let's format our data so that Steve can determine stock performance at a glance.
-Now that we've written and tested a significant amount of code, running a macro might seem like a simple task. But this might not be the case for Steve. He wants to focus on financial analysis, not installing Developer tools, determining the correct macro to use, and then figuring out how to run the macro. To make life easier for the end-users of our code like Steve, we can create buttons in the worksheet.
-Steve will probably want to run this analysis for each year, so let's update our code to run for any year, not just 2018.
-In the future, Steve may want to perform his analysis on larger datasets, and he wants to know how fast his VBA code will compile the results. To help Steve, we need to add a script that will calculate how long the code takes to execute and output the elapsed time in a message box.
-In this challenge, you’ll edit, or refactor, the Module 2 solution code to loop through all the data one time in order to collect the same information that you did in this module. Then, you’ll determine whether refactoring your code successfully made the VBA script run faster. Finally, you’ll present a written analysis that explains your findings.
