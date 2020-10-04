@@ -23,6 +23,8 @@ There is a detailed statement on the advantages and disadvantages of the origina
 
 The analysis was performed on Green stock data for 12 stocks for 2017 and 2018. I started by creating 
 
+![](/image)
+
 
 
 Now that we've run the analysis, let's make it easier for Steve to read by adding some formatting to our table. This is the same type of formatting we did in the last module—changing font styles, adding borders, setting number formats, and so on—but we can automate formatting with VBA.
