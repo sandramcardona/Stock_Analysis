@@ -23,15 +23,31 @@ Daily volume is the total number of shares traded throughout the day; it measure
 Below are the results of the analysis for the DQ stock for 2018, showing that the performance of the stock did not do well so Steve needed to look for better stock options for his parents. 
 ![alt text](https://github.com/sandramcardona/Stock_Analysis/blob/master/Resources/DQ_2018_Stock_Analysis.png)
 
-Steve then wanted to see all the other stocks analysis to help his parents pick a better option. To run the analysis for all the stocks for 2017 and 2018, the code was edited to be able to be run for the specific year that Steve wanted to analyze. Instead of looking at one year a yearvalue variable was created so the year would be based on the input year Steve would add. Then an index was added to look for all the stocks instead of only DQ. Then different parameters were added so the code would recognize where the first line and line of each stock was located in order to add the correct Total Volumes and calculate the Yearly return correctly. This values were then placed into a table and formatted so the could 
+Steve then wanted to see all the other stocks analysis to help his parents pick a better option. To run the analysis for all the stocks for 2017 and 2018, the code was edited to be able to be run for the specific year that Steve wanted to analyze. Instead of looking at one year a yearvalue variable was created so the year would be based on the input year Steve would add. Then an index was added to look for all the stocks instead of only DQ. Then different parameters were added so the code would recognize where the first line and last line of each stock was located in the list in order to add the correct Total Volumes and calculate the Yearly return correctly. This values were then placed into a table where the Stocks Year, Ticker name, Total Daily Volume and Return. The table was then formatted and the color was added to show in green any positive returns and red for any negative returns. 
 
-Based on the results for the all stocks analysis performed for 2017a nd 2018, the best stock to invest would be ENPH. In 2017, it had a percent return of 129.5% in 2018 it had an 81.9% return while the majority of the other stocks were in negative Returns. Eventhough the stock RUN had a low return in 2017 of 5.5%, it showed that in 2018 it had a high return while the other stocks had a negative return. RUN will also be a good option to invest in.  
+
 Below are the images of the All stocks analyis for 2017 and 2018 based on the edited code. 
+#### All Stocks Analysis 2017
 ![alt text](https://github.com/sandramcardona/Stock_Analysis/blob/master/Resources/2017%20All%20Stoks%20Analysis_VBA_Challenge.png)
 
+#### All Stocks Analysis 2018
 ![alt text](https://github.com/sandramcardona/Stock_Analysis/blob/master/Resources/2018%20All%20Stocks%20Analysis_VBA_Challenge.png)
 
-Steve wants to optimize the code to make it run faster for when he has to run larger data sets for these Stocks. In order to do this, the original code was refactored to use an Array instead of Ranges in order to improve the running time. 
+Based on the results for the all stocks analysis performed for 2017a nd 2018, the best stock to invest would be ENPH. In 2017, it had a percent return of 129.5% in 2018 it had an 81.9% return while the majority of the other stocks were in negative Returns. Eventhough the stock RUN had a low return in 2017 of 5.5%, it showed that in 2018 it had a high return while the other stocks had a negative return. RUN will also be a good option to invest in.  
+
+Steve explained that he would like to use the code in other years for the same stock. In order to have the code make it run faster for when Steve runs larger data sets for these Stocks the code needed to be optimize.  In order to do this, the original code was refactored to use an Array instead of Ranges in order to improve the running time. This was performed by creating a tickerIndex variable and assigning 3 different output arrays. The tickerIndex was then added throughout the rest of the code to increase the total volume of the ticker and get the starting prices and ending prices for each ticker and then calculate the return from these two values. After completing each ticker the tickerIndex will then be increased by 1 so it would do the same for the next ticker. The rest of the formatting and color coding was kept the same. Below are the images from the original code and the running times for each year and then following that are the images for the refactored code and the new running times. 
+
+#### Original code and running times
+![alt text]( )
+
+
+#### Refactored code and new running times
+
+![alt text]
+
+The different in times between the original and the refactored times shows that the optimization of the code really works and it works 6 to 7 times faster than the original code. 
+
+
 ### Summary
 There is a detailed statement on the advantages and disadvantages of refactoring code in general (3 pt).
 There is a detailed statement on the advantages and disadvantages of the original and refactored VBA script (3 pt).
