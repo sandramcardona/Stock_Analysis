@@ -63,4 +63,6 @@ After working on the original and refactored code, I was able to find the advant
 
 In the case of the VBA script for all stocks analysis that was created for this project, the advantage of refactoring the code was to get it to run 3 to 4 times faster than the original code. This would allow the client, Steve, to use the code in larger sets and get the results faster.  The disadvantages of refacturing the VBa code was that we already had a working code and learning how to best refacturing it took time to understand. Then making sure the edits in the code worked and cleaning up the bugs took also time. This extra time can cause delays in returning the code to the client. 
 
+In conclusion, in this case, refactoring should be done when the deadline for the project is not too close because it will take time to refactor and fix any bugs.
+
 
