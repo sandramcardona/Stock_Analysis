@@ -23,7 +23,7 @@ There is a detailed statement on the advantages and disadvantages of the origina
 
 The analysis was performed on Green stock data for 12 stocks for 2017 and 2018. I started by creating 
 
-![](/image)
+![](/2017%20All%20Stoks%20Analysis_VBA_Challenge.png)
 
 
 
