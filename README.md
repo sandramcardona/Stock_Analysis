@@ -37,13 +37,22 @@ Based on the results for the all stocks analysis performed for 2017a nd 2018, th
 
 Steve explained that he would like to use the code in other years for the same stock. In order to have the code make it run faster for when Steve runs larger data sets for these Stocks the code needed to be optimize.  In order to do this, the original code was refactored to use an Array instead of Ranges in order to improve the running time. This was performed by creating a tickerIndex variable and assigning 3 different output arrays. The tickerIndex was then added throughout the rest of the code to increase the total volume of the ticker and get the starting prices and ending prices for each ticker and then calculate the return from these two values. After completing each ticker the tickerIndex will then be increased by 1 so it would do the same for the next ticker. The rest of the formatting and color coding was kept the same. Below are the images from the original code and the running times for each year and then following that are the images for the refactored code and the new running times. 
 
-#### Original code and running times
-![alt text]( )
+##### Original code and running times
+![alt text](https://github.com/sandramcardona/Stock_Analysis/blob/master/Resources/Original_VBAcode_All_Stocks_Analysis.png)
+
+![alt text](https://github.com/sandramcardona/Stock_Analysis/blob/master/Resources/VBA_Challenge_originalcode_2017_runningtime.png)
+
+![alt text](https://github.com/sandramcardona/Stock_Analysis/blob/master/Resources/VBA_Challenge_originalcode_2018_runningtime.png)
+
+##### Refactored code and new running times
+
+![alt text](https://github.com/sandramcardona/Stock_Analysis/blob/master/Resources/Refactored_VBA_code_All_Stocks_Analysis.png)
 
 
-#### Refactored code and new running times
+![alt text](https://github.com/sandramcardona/Stock_Analysis/blob/master/Resources/VBA_Challenge_refactored_2017_runningtime.png)
 
-![alt text]
+
+![alt text](https://github.com/sandramcardona/Stock_Analysis/blob/master/Resources/VBA_Challenge_Refactored_2018_runningtime.png)
 
 The different in times between the original and the refactored times shows that the optimization of the code really works and it works 6 to 7 times faster than the original code. 
 
@@ -53,8 +62,6 @@ There is a detailed statement on the advantages and disadvantages of refactoring
 There is a detailed statement on the advantages and disadvantages of the original and refactored VBA script (3 pt).
 
 
-
-Results: Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
 Summary: In a summary statement, address the following questions.
 What are the advantages or disadvantages of refactoring code?
 How do these pros and cons apply to refactoring the original VBA script?
