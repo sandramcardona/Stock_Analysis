@@ -21,12 +21,12 @@ The analysis is well described with screenshots and code (4 pt).
 There is a detailed statement on the advantages and disadvantages of refactoring code in general (3 pt).
 There is a detailed statement on the advantages and disadvantages of the original and refactored VBA script (3 pt).
 
-The analysis was performed on Green stock data for 12 stocks for 2017 and 2018. I started by creating 
+The analysis was performed on Green stock data for the DQ, DAQO, stock but  12 stocks for 2017 and 2018. I started by creating 
 
 
-![alt text](https://github.com/sandramcardona/Kickstarting_with_Excel/blob/master/Resources/Theather_Outcomes_vs_Launch.png?raw=true)
+![alt text](https://github.com/sandramcardona/Stock_Analysis/blob/master/Resources/2017%20All%20Stoks%20Analysis_VBA_Challenge.png)
 
-![alt text](https://github.com/sandramcardona/Kickstarting_with_Excel/blob/master/Resources/Theather_Outcomes_vs_Launch.png?raw=true)
+![alt text](https://github.com/sandramcardona/Stock_Analysis/blob/master/Resources/2018%20All%20Stocks%20Analysis_VBA_Challenge.png)
 
 Now that we've run the analysis, let's make it easier for Steve to read by adding some formatting to our table. This is the same type of formatting we did in the last module—changing font styles, adding borders, setting number formats, and so on—but we can automate formatting with VBA.
 Let's format our data so that Steve can determine stock performance at a glance.
