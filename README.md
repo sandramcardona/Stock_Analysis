@@ -16,8 +16,6 @@ Steve would like to be able to read the analysis at a glance so additional forma
 
 ## Results
 
-The analysis is well described with screenshots and code (4 pt).
-
 The analysis was performed on Green stock data for the DQ, DAQO, stock. The analysis was performed by looking for the DQ ticker inside the data. Once the DQ tickers were found there were two items to look for: the Daily Volume and the Yearly return.  
 Daily volume is the total number of shares traded throughout the day; it measures how actively a stock is traded. For the analysis, all the volumes for the DQ tickers were added for the year 2018 to calculate the total volume and then it was displayed on the Total Daily Volume column. Next, for the Yearly Return, which is the percentage difference in price from the beginning of the year to the end of the year, the starting Price and the ending price for the DQ stock was substracted and then shown as a percentage in the Return column. 
 Below are the results of the analysis for the DQ stock for 2018, showing that the performance of the stock did not do well so Steve needed to look for better stock options for his parents. 
